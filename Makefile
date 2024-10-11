@@ -24,3 +24,5 @@ $(TARGET): $(OBJECTS) $(LIBRARY)
 # Очищення
 clean:
 	del $(OBJECTS) $(TARGET) $(LIBRARY)
+
+.PHONY: all clean
